@@ -2,19 +2,37 @@
 
 <head>
 
+  <link href='https://fonts.googleapis.com/css?family=Lusitana' rel='stylesheet' type='text/css'>
   <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+  <script type="text/javascript">
+  var totalCount = 8;
+  function ChangeIt()
+  {
+  var num = Math.ceil( Math.random() * totalCount );
+  document.body.background = 'images/'+num+'.jpg';
+  document.body.style.backgroundRepeat = "repeat";// Background repeat
+  }
+  </script>
   <title>Power Shots</title>
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
 </head>
 
-<body>
+<body class="index">
 
-<center>
-<!--<a href="photos.html">--><img class="title" src="images/title.jpg" name="canvas" /><!--</a>-->
+  <div id="container">
 
-</center>
+    <div class="title">
+      <a href="photos.html">Power Shots</a>
+    </div>
+
+    <div class="click">
+      <a href="photos.html">Click to begin.</a>
+    </div>
+
+  </div>
 
 </body>
-
+<script type="text/javascript">
+ChangeIt();
+</script>
 </html>
