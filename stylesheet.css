@@ -24,11 +24,12 @@
   position: absolute;
   width: 900px;
   right: 50%;
-  margin-right: -464px;
-  margin-top: 200px;
-  font-size: 110px;
+  margin-right: -447px;
+  margin-top: 185px;
+  font-family: 'Lusitana', serif;
+  font-style: italic;
+  font-size: 150px;
   text-shadow: 6px 6px 6px #999999;
-  letter-spacing: 18px;
 }
 
 .click {
@@ -38,9 +39,9 @@
   position: absolute;
   width: 900px;
   right: 50%;
-  margin-right: -465px;
+  margin-right: -475px;
   margin-top: 400px;
-  letter-spacing: 20px;
+  letter-spacing: 30px;
 }
 
 a {

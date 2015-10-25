@@ -1,7 +1,7 @@
 //center image
 var usedImages = {};
 var usedImagesCount = 0;
-var numImages = 81;
+var numImages = 76;
 function displayImage() {
     var num = 1+Math.floor(Math.random() * (numImages));
     if (!usedImages[num]){
@@ -18,7 +18,7 @@ function displayImage() {
 }
 
 //background image
-var totalCount = 81;
+var totalCount = 76;
 function ChangeIt() {
   var num = Math.ceil( Math.random() * totalCount );
   document.body.background = 'images/'+num+'.jpg';
